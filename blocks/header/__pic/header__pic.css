@@ -1,0 +1,9 @@
+.header__pic {
+    width: 100%;
+    animation: scale ease-in-out 5s infinite; /*имя keyframes*/
+}
+@keyframes scale {
+    50% {
+    transform: rotateX(60deg) rotateZ(20deg) translate3d(0vh,0vh,0vh) scale(1);
+    }
+}

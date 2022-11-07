@@ -1,0 +1,24 @@
+.header__link {
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color:#ffffff;
+    text-decoration:none;
+    transition:linear .335s;
+}
+.header__link:hover {
+    box-shadow:0 2px 0 0 rgb(224, 224, 224);
+}
+@media (max-width: 425px) {
+    .header__link {
+        line-height: 20px;
+    }
+}
+@media (max-width: 767px)   {
+    .header__link{
+        font-size:18px;
+        line-height:24px;
+    }
+}

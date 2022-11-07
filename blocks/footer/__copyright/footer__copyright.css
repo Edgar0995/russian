@@ -1,0 +1,15 @@
+.footer__copyright {
+    margin: 0;
+    width: 186px;
+    cursor: pointer;
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.footer__copyright:hover {
+    transition: .2s linear;
+    opacity: 0.3;
+}

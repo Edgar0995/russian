@@ -1,0 +1,12 @@
+.intro__block {
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    list-style-type: none;
+    max-width: 390px;
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}

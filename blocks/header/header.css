@@ -1,0 +1,23 @@
+.header {
+    margin: 28px auto 62px;
+    max-width: calc(100% - 96px);
+    display: flex;
+    justify-content: space-between;
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+    .header {
+        margin: 28px auto 48px;
+    }
+}
+@media (min-width: 426px) and (max-width: 768px) {
+    .header {
+        margin: 28px auto 48px;
+        max-width: calc(100% - 48px);
+    }
+}
+@media (max-width: 425px) {
+    .header {
+        margin: 16px auto 48px;
+        max-width: calc(100% - 32px);
+    }
+}

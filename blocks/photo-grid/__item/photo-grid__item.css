@@ -1,0 +1,11 @@
+.photo-grid__item {
+    display: block;
+    width: 100%;
+    border-radius: 50px;
+    transition: all 0.8s;
+}
+.photo-grid__item:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transform: scale(1.05);
+}
